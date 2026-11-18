@@ -1,0 +1,317 @@
+{
+  "conversation_id": "e3863fda-e74e-4503-8cce-6227dfd6b964",
+  "user_id": "922878da-fec0-40ee-b031-2fd95f366c2c",
+  "document_id": "b4d438dc-98b8-4d30-94c6-97397d122f3a",
+  "filename": "rag_test_handbook (1).pdf",
+  "question_count": 50,
+  "questions": [
+    {
+      "question": "Who must approve an exception to the Board reporting calendar procedure, and how long may the exception run before it must be renewed?",
+      "relevant_chunk_ids": [
+        "6d4c60fa-eedb-4c4c-b23e-b29542f50bb9"
+      ]
+    },
+    {
+      "question": "Which two sites are named in the joint review triggered by repeat breaches in section 1.1 of the handbook?",
+      "relevant_chunk_ids": [
+        "0b716159-7996-46dc-8508-f070e1f20d72",
+        "2e6b8684-607b-4b55-a421-273b43a36d92"
+      ]
+    },
+    {
+      "question": "Who is the document owner and who is the deputy owner of the Chapter 1 procedure that is reviewed every 45 days by the Safety Steering Group?",
+      "relevant_chunk_ids": [
+        "a467bf9e-d315-4329-b684-0af222e8e5d9",
+        "72251ee5-d109-41fd-a9a6-ad0bdc4ccd2a"
+      ]
+    },
+    {
+      "question": "At which site was the 2025 review behind the checklist procedure that escalates delays to Samuel Adeyemi?",
+      "relevant_chunk_ids": [
+        "1a0de1b1-ba60-4cb8-94d0-31710c8515e1"
+      ]
+    },
+    {
+      "question": "How many numbered procedures does the Warehouse Operations chapter contain, and which code prefix identifies them?",
+      "relevant_chunk_ids": [
+        "364814fe-9e03-4b34-beff-d235f5d6845f"
+      ]
+    },
+    {
+      "question": "How long are records produced under the Inbound dock scheduling procedure retained in the primary system?",
+      "relevant_chunk_ids": [
+        "f7bc42d6-5f65-4b84-965d-2713b7a00e25"
+      ]
+    },
+    {
+      "question": "Who approves exceptions to the Pallet put-away rules procedure, and what is the longest an exception may run without renewal?",
+      "relevant_chunk_ids": [
+        "794690d4-9fa6-4d8e-92d1-908c07783fbd"
+      ]
+    },
+    {
+      "question": "How many transactions per week is the procedure applied to at the Dubai South Facility, as stated in section 2.3?",
+      "relevant_chunk_ids": [
+        "1c14abdf-c1d2-44b7-b02f-71d6f5bbe256"
+      ]
+    },
+    {
+      "question": "How long are records produced under the Cycle counting programme retained?",
+      "relevant_chunk_ids": [
+        "f2d0c6fb-cbb0-44fd-9100-b07f9f7419c3"
+      ]
+    },
+    {
+      "question": "Which code prefix identifies procedures in the Fleet Maintenance and Telematics chapter?",
+      "relevant_chunk_ids": [
+        "4a973fae-f2e9-465d-9849-662c2148531f"
+      ]
+    },
+    {
+      "question": "Who approves exceptions to MFS-FLT-112?",
+      "relevant_chunk_ids": [
+        "18af0930-274b-4f31-a3f7-bbbc1f455428"
+      ]
+    },
+    {
+      "question": "How often is the Brake system diagnostics procedure reviewed, and by which committee?",
+      "relevant_chunk_ids": [
+        "341094dd-e621-4f44-8289-4a711bde3fcc"
+      ]
+    },
+    {
+      "question": "What is the maximum duration of an exception to MFS-FLT-123 before it must be renewed?",
+      "relevant_chunk_ids": [
+        "cca29872-7c57-4e23-9e5e-c722ee827543",
+        "5641ff53-bd07-4206-9fcb-d4580c240454"
+      ]
+    },
+    {
+      "question": "How many numbered procedures are in the Health, Safety and Environment chapter?",
+      "relevant_chunk_ids": [
+        "a12b6152-c9a4-4b95-97fc-be42583f9094"
+      ]
+    },
+    {
+      "question": "Who is the document owner of the Incident classification procedure?",
+      "relevant_chunk_ids": [
+        "66595eb8-dc8a-499f-9dd2-7552ad58aa9e",
+        "b4e6548c-a143-4117-bdf7-d9e6ae5a2f8e"
+      ]
+    },
+    {
+      "question": "Who is the deputy owner of the Forklift operator certification procedure?",
+      "relevant_chunk_ids": [
+        "93fb78ff-6039-483a-a6a9-63a62320899e"
+      ]
+    },
+    {
+      "question": "How many days do managers have to clear outstanding training under MFS-HSE-125?",
+      "relevant_chunk_ids": [
+        "b4e6548c-a143-4117-bdf7-d9e6ae5a2f8e"
+      ]
+    },
+    {
+      "question": "How often is the Password and passphrase standards procedure reviewed, and by which body?",
+      "relevant_chunk_ids": [
+        "0c80dab8-efcd-4be8-a074-6239eb7d8aa6"
+      ]
+    },
+    {
+      "question": "What is the title of section 5.2 in the Information Security chapter?",
+      "relevant_chunk_ids": [
+        "c3b3c610-cb36-4346-8045-bd51a999bc81"
+      ]
+    },
+    {
+      "question": "What is the target value for the monthly indicator of the Multi-factor authentication enrolment procedure?",
+      "relevant_chunk_ids": [
+        "3396ea6e-b26e-491a-8247-6838729f1e85"
+      ]
+    },
+    {
+      "question": "What is the maximum duration of an exception to MFS-SEC-124 before renewal?",
+      "relevant_chunk_ids": [
+        "9608af15-0bfc-46f1-85d7-ea61c19808a8",
+        "7711e8c4-d035-42a3-bb1f-af50b2f0edc5"
+      ]
+    },
+    {
+      "question": "What code prefix is used for procedures in the Data Management and Retention chapter?",
+      "relevant_chunk_ids": [
+        "c1d5ee0f-540c-4aa1-82a6-f23dd05fac19"
+      ]
+    },
+    {
+      "question": "How long are records produced under the Customer data classification procedure retained?",
+      "relevant_chunk_ids": [
+        "e445150b-b299-4d6b-856e-c72808d04cca"
+      ]
+    },
+    {
+      "question": "Above what financial exposure must a matter be escalated immediately under the procedure that raises unresolved cases with Mei-Ling Tan?",
+      "relevant_chunk_ids": [
+        "26b376e3-8edc-47f3-b31c-a583e563a9f1"
+      ]
+    },
+    {
+      "question": "Which site's 2023 review found delays of up to 36 hours caused by unclear ownership?",
+      "relevant_chunk_ids": [
+        "47eed812-1a75-4165-89fb-41f4815f7509"
+      ]
+    },
+    {
+      "question": "Which code prefix identifies Human Resources Policies procedures, and how many numbered procedures does the chapter contain?",
+      "relevant_chunk_ids": [
+        "ceb65639-d64b-46fe-bc9d-d994459109cd"
+      ]
+    },
+    {
+      "question": "How often is the Probation review procedure reviewed, and by which board?",
+      "relevant_chunk_ids": [
+        "2c1aa107-55c4-49e2-aa91-342ac4cb63f5"
+      ]
+    },
+    {
+      "question": "Who owns the Overtime authorisation procedure?",
+      "relevant_chunk_ids": [
+        "26c5d934-0452-4e75-be39-79988c7006e3",
+        "4cbda83b-c95f-4d32-b06d-8ce714f59e94"
+      ]
+    },
+    {
+      "question": "Which form records changes to the thresholds of the Annual leave carry-over procedure?",
+      "relevant_chunk_ids": [
+        "2b2ffb59-fb71-4596-8bc8-8bd6487fd883"
+      ]
+    },
+    {
+      "question": "How many numbered procedures does the Finance and Procurement chapter contain?",
+      "relevant_chunk_ids": [
+        "4f9ebeb4-e435-46e3-9f7a-1764737bd2e4"
+      ]
+    },
+    {
+      "question": "What is the review cycle for the Purchase order thresholds procedure?",
+      "relevant_chunk_ids": [
+        "d9f917a3-3867-4a16-ac61-0a7dd00957bb",
+        "e1132e1a-d863-4810-8977-1d3db316c367"
+      ]
+    },
+    {
+      "question": "How long are records produced under MFS-FIN-120 retained?",
+      "relevant_chunk_ids": [
+        "9a5ccfcf-f443-4046-bed0-53e0d45cc6dd",
+        "7208ecfe-33df-4eee-b3bf-94347eaa6006"
+      ]
+    },
+    {
+      "question": "Who owns MFS-FIN-109 Purchase order thresholds, and what is that procedure's home site?",
+      "relevant_chunk_ids": [
+        "e1132e1a-d863-4810-8977-1d3db316c367"
+      ]
+    },
+    {
+      "question": "Which code prefix identifies Customer Service and SLAs procedures?",
+      "relevant_chunk_ids": [
+        "efbbc976-35f0-46b6-8e2e-535ef0acd21b"
+      ]
+    },
+    {
+      "question": "Who is the deputy owner of the Escalation tiers procedure?",
+      "relevant_chunk_ids": [
+        "0273b9d1-8537-456f-9954-76056f489d26"
+      ]
+    },
+    {
+      "question": "Which two sites are involved in the joint review for repeat breaches under section 9.2?",
+      "relevant_chunk_ids": [
+        "2b6d78aa-67ed-4af2-9948-2a74dc074abf"
+      ]
+    },
+    {
+      "question": "Who owns the First response targets procedure, and what is its home site?",
+      "relevant_chunk_ids": [
+        "95b4eb3d-fcff-49cf-9166-72ed5f72d4b5"
+      ]
+    },
+    {
+      "question": "How many numbered procedures does the Incident and Business Continuity chapter contain?",
+      "relevant_chunk_ids": [
+        "23497e41-2e54-4f5c-b395-0299916f21d3"
+      ]
+    },
+    {
+      "question": "Who is the deputy owner of the Severity levels procedure?",
+      "relevant_chunk_ids": [
+        "a0beab5b-e37e-4e92-b3c1-2f65b9790eda"
+      ]
+    },
+    {
+      "question": "What is the target value for the monthly indicator of the Crisis communication tree procedure?",
+      "relevant_chunk_ids": [
+        "1acec486-11a7-49a6-8ab4-702a75daa642"
+      ]
+    },
+    {
+      "question": "Within how many hours must supervisors complete the checklist under the procedure that notifies Isabel Ferreira?",
+      "relevant_chunk_ids": [
+        "ce091796-cdba-4751-b9a9-fbea2efa254a"
+      ]
+    },
+    {
+      "question": "Which code prefix identifies Sustainability and Compliance procedures?",
+      "relevant_chunk_ids": [
+        "35447ad5-6adf-4db7-ab87-2786a64f9f28"
+      ]
+    },
+    {
+      "question": "Who is the deputy owner of the Route emissions estimation procedure?",
+      "relevant_chunk_ids": [
+        "7bd7f8a5-1a1f-4bfe-9896-c06ac5e698b2"
+      ]
+    },
+    {
+      "question": "How many transactions per week is the procedure applied to at the Pune Distribution Centre?",
+      "relevant_chunk_ids": [
+        "f0f57ffc-afca-47a4-a0dc-b322eb84796d"
+      ]
+    },
+    {
+      "question": "How many numbered procedures does the Vendor and Quality Management chapter contain?",
+      "relevant_chunk_ids": [
+        "15c21a31-f137-4cb5-bd64-70ec21472b42"
+      ]
+    },
+    {
+      "question": "Who approves exceptions to MFS-VQM-109?",
+      "relevant_chunk_ids": [
+        "a543e61f-1979-47aa-b6a0-e14cbbeb7429"
+      ]
+    },
+    {
+      "question": "What is the target value for the Quarterly business reviews procedure's monthly indicator?",
+      "relevant_chunk_ids": [
+        "b434029b-ecec-4580-acbf-cb3ab6418819"
+      ]
+    },
+    {
+      "question": "Which code prefix identifies Training and Competency procedures?",
+      "relevant_chunk_ids": [
+        "acfa381d-5386-4bf0-9af1-ab7c75110503"
+      ]
+    },
+    {
+      "question": "How often is the Forklift refresher procedure reviewed, and by which panel?",
+      "relevant_chunk_ids": [
+        "6b68ea97-628f-4cb2-bcf0-2e31f8ffcffb"
+      ]
+    },
+    {
+      "question": "Who is the deputy owner of the Customs documentation course procedure?",
+      "relevant_chunk_ids": [
+        "84ba6798-0f7f-4fce-b1c9-506912d186c0"
+      ]
+    }
+  ]
+}

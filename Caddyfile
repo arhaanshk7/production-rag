@@ -1,0 +1,7 @@
+{
+    email arhaanshk8@gmail.com
+}
+
+arhaan-rag-api.duckdns.org {
+    reverse_proxy api:8000
+}

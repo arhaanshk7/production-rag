@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.markdown p {
+  margin: 0.5rem 0;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  margin: 0.75rem 0 0.5rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.markdown h1 {
+  font-size: 1.25rem;
+}
+
+.markdown h2 {
+  font-size: 1.125rem;
+}
+
+.markdown h3 {
+  font-size: 1rem;
+}
+
+.markdown ul {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+  list-style: disc;
+}
+
+.markdown ol {
+  margin: 0.5rem 0;
+  padding-left: 1.25rem;
+  list-style: decimal;
+}
+
+.markdown a {
+  color: #2563eb;
+  text-decoration: underline;
+}
+
+.markdown code {
+  border-radius: 4px;
+  background: #e5e7eb;
+  padding: 1px 5px;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.85em;
+}
+
+.markdown pre {
+  margin: 0.5rem 0;
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  background: #111827;
+  padding: 0.75rem;
+}
+
+.markdown pre code {
+  background: transparent;
+  padding: 0;
+  color: #f9fafb;
+}
+
+.markdown table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+
+.markdown th,
+.markdown td {
+  border: 1px solid #d1d5db;
+  padding: 0.35rem 0.6rem;
+  text-align: left;
+}

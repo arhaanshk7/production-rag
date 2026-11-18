@@ -1,0 +1,194 @@
+{
+  "conversation_id": "33ecdad8-6e0b-4290-8a09-0ab76ca7f7ff",
+  "user_id": "922878da-fec0-40ee-b031-2fd95f366c2c",
+  "document_id": "13bdcbc9-3fe9-4d05-b9b1-a8834965ade8",
+  "filename": "rag_testing_knowledge_base_30_pages (1).pdf",
+  "question_count": 30,
+  "questions": [
+    {
+      "question": "Where is Northstar headquartered, when did it begin operations, and how many employees does it have?",
+      "relevant_chunk_ids": [
+        "1329d0b2-5b65-477e-bf30-1cec6154e4e9"
+      ]
+    },
+    {
+      "question": "Which business unit owns product specifications?",
+      "relevant_chunk_ids": [
+        "bfe1b3c9-c001-4847-899e-40393bb1545f"
+      ]
+    },
+    {
+      "question": "How long is standard customer measurement data retained online, and where is it moved afterward?",
+      "relevant_chunk_ids": [
+        "87e09b9e-4ced-4b9d-9fb9-f5df28094758",
+        "3b864a05-760f-48be-97f5-d4bfaf3b11af"
+      ]
+    },
+    {
+      "question": "How many hours of readings can a GW-20 buffer, and how many days can a GW-40 buffer?",
+      "relevant_chunk_ids": [
+        "8ca806be-fdd3-4918-9a3a-b2e6d450b325"
+      ]
+    },
+    {
+      "question": "What is the recommended calibration interval for the NS-T20 in regulated cold-chain monitoring?",
+      "relevant_chunk_ids": [
+        "5f1d8fda-75dd-4ea7-9603-c8fd17298c3e"
+      ]
+    },
+    {
+      "question": "What is the maximum recommended continuous operating pressure of the NS-P40?",
+      "relevant_chunk_ids": [
+        "daa49fd3-38af-4f0f-87c6-4bcca06c0f26",
+        "cb11b008-c77a-4bfb-9bab-9309f475ec57"
+      ]
+    },
+    {
+      "question": "What are the default FleetView alert bands for a configured NS-V5 installation?",
+      "relevant_chunk_ids": [
+        "9ae33583-9528-42a3-ada2-67118130f03a"
+      ]
+    },
+    {
+      "question": "If a gateway was offline for six hours and later backfilled readings, what may happen to a utility report?",
+      "relevant_chunk_ids": [
+        "82c8ddc6-2f57-46ef-a07f-29cd8ae93974",
+        "b46cb9d1-3b84-4005-a84d-47feaf27e16f"
+      ]
+    },
+    {
+      "question": "Which role can release a finished unit after the required inspection records are complete?",
+      "relevant_chunk_ids": [
+        "a71a37ba-9828-47b3-82c1-c5f2b6309678"
+      ]
+    },
+    {
+      "question": "Who owns commercial due diligence when qualifying a new supplier?",
+      "relevant_chunk_ids": [
+        "570afb16-d9a7-4a9f-9241-5200bc701367"
+      ]
+    },
+    {
+      "question": "How often are A, B, and C inventory items counted?",
+      "relevant_chunk_ids": [
+        "77566293-b567-4bbe-9bc7-bf92f2bcaee5"
+      ]
+    },
+    {
+      "question": "Which record includes the gateway serial number, sensor serial numbers, firmware versions, and customer sign-off?",
+      "relevant_chunk_ids": [
+        "8aa5b375-13e4-4c05-b738-91d279ca26ee"
+      ]
+    },
+    {
+      "question": "What is the initial response target for Severity 1 under a standard support contract?",
+      "relevant_chunk_ids": [
+        "e2ede01b-9a00-4cf3-98fb-2535b7c13c06"
+      ]
+    },
+    {
+      "question": "Within how many business days after recovery must a Severity 1 or Severity 2 incident receive a post-incident review?",
+      "relevant_chunk_ids": [
+        "2261525d-50ba-437c-a9e1-80d9b8ebd09d"
+      ]
+    },
+    {
+      "question": "How often is privileged access reviewed?",
+      "relevant_chunk_ids": [
+        "7d8f1b37-4913-4e20-89e4-154fd8d0c017",
+        "9b2332e7-b019-437b-b631-cca65d012ace"
+      ]
+    },
+    {
+      "question": "To whom is a customer request to access, correct, export, or delete personal data forwarded?",
+      "relevant_chunk_ids": [
+        "75c960e7-0e4f-451a-aab0-7f5821f730cf"
+      ]
+    },
+    {
+      "question": "Which HTTP status code indicates rate limiting?",
+      "relevant_chunk_ids": [
+        "2f8d7937-616c-4a1d-bf47-1b984a1cb326"
+      ]
+    },
+    {
+      "question": "What is the standard API rate limit per user token?",
+      "relevant_chunk_ids": [
+        "ee86a863-475b-4448-8da4-76b65549b5a7"
+      ]
+    },
+    {
+      "question": "How long are backup copies retained in the primary recovery region and in the separate region?",
+      "relevant_chunk_ids": [
+        "56883b70-4ce2-4e80-a14e-567d17cfcca6"
+      ]
+    },
+    {
+      "question": "How often does production receive incremental and full database backups?",
+      "relevant_chunk_ids": [
+        "56883b70-4ce2-4e80-a14e-567d17cfcca6"
+      ]
+    },
+    {
+      "question": "What is the standard cloud service availability objective?",
+      "relevant_chunk_ids": [
+        "81e5b7e1-dc5b-41aa-8842-514b72b42f37"
+      ]
+    },
+    {
+      "question": "How many days of annual paid leave do full-time employees receive per calendar year?",
+      "relevant_chunk_ids": [
+        "ec5c1a93-a205-433c-a591-9a5e578dad74"
+      ]
+    },
+    {
+      "question": "What must be applied before maintenance where hazardous energy could be released?",
+      "relevant_chunk_ids": [
+        "e2fe0fa4-3c67-4228-9aa4-b6086a1e87ee"
+      ]
+    },
+    {
+      "question": "What is the standard hotel reimbursement ceiling for domestic travel in metro cities?",
+      "relevant_chunk_ids": [
+        "5e82522a-467b-4ae2-bafa-5ea2b3a21fa1"
+      ]
+    },
+    {
+      "question": "What is the standard warranty period for Northstar hardware?",
+      "relevant_chunk_ids": [
+        "a882e22f-cb15-4632-a2ff-5fc53f66c0d0"
+      ]
+    },
+    {
+      "question": "What must marketing not state about data retention?",
+      "relevant_chunk_ids": [
+        "0a34c743-b938-45c6-8971-9c3f0bbf5ae2",
+        "31f3f157-c6e8-49f2-ae2f-0d8595d6cf4f"
+      ]
+    },
+    {
+      "question": "How is mean time to acknowledge measured?",
+      "relevant_chunk_ids": [
+        "ca5e5e13-1d98-4e16-a380-01aecf546fc4"
+      ]
+    },
+    {
+      "question": "Within how many days of joining must new employees complete required training?",
+      "relevant_chunk_ids": [
+        "d62d79e7-3171-4348-b4f7-b0ba432d2aea"
+      ]
+    },
+    {
+      "question": "How long are customer contracts retained after expiry, and how long are calibration certificates retained after product retirement?",
+      "relevant_chunk_ids": [
+        "caa52170-8996-4a5c-ab6d-a156e5c4769a"
+      ]
+    },
+    {
+      "question": "When is the FleetView alert-rule editor refresh targeted for evaluation?",
+      "relevant_chunk_ids": [
+        "420178f6-a7a8-4fd6-bd71-8a64b37b7229"
+      ]
+    }
+  ]
+}

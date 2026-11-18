@@ -1,0 +1,315 @@
+{
+  "conversation_id": "9b8dbf5a-95ea-442b-a8df-4b3a8ec55fb8",
+  "user_id": "922878da-fec0-40ee-b031-2fd95f366c2c",
+  "document_id": "ffced979-3a79-4c93-846f-58b0ff0affa2",
+  "filename": "avengers-60-page-dense-text_removed.pdf",
+  "question_count": 50,
+  "questions": [
+    {
+      "question": "Who was Tony Stark's fellow prisoner in the cave in Afghanistan?",
+      "relevant_chunk_ids": [
+        "cec77fbd-2023-4d0f-aa66-496118cb4f8d"
+      ]
+    },
+    {
+      "question": "What cover story does SHIELD offer for Tony Stark's public appearances at the end of Iron Man?",
+      "relevant_chunk_ids": [
+        "54106a8a-c1f7-4489-a0be-7bbd3766d68c"
+      ]
+    },
+    {
+      "question": "In which Brazilian neighbourhood is Bruce Banner hiding at the start of The Incredible Hulk?",
+      "relevant_chunk_ids": [
+        "f9158fe2-a34c-4440-a42a-61d8eb91b671"
+      ]
+    },
+    {
+      "question": "Which New Mexico town does Thor land in near Jane Foster?",
+      "relevant_chunk_ids": [
+        "90b14654-fedb-4100-af3d-2aef3ca162ee"
+      ]
+    },
+    {
+      "question": "Which scientist selects Steve Rogers for the super-soldier programme?",
+      "relevant_chunk_ids": [
+        "3a798ce4-5478-4dbd-8e3a-ad87516abf04"
+      ]
+    },
+    {
+      "question": "What does Loki take from the joint NASA-SHIELD facility at the start of The Avengers?",
+      "relevant_chunk_ids": [
+        "27350bb1-ab9e-466b-a214-4175e7a323e1"
+      ]
+    },
+    {
+      "question": "Who is the captured Loki held in a glass cell built for on the SHIELD Helicarrier?",
+      "relevant_chunk_ids": [
+        "fe81a14b-539c-4cda-9712-d6fe1bd74a3a"
+      ]
+    },
+    {
+      "question": "Which agent is fatally wounded confronting Loki before the Battle of New York?",
+      "relevant_chunk_ids": [
+        "07e48c72-1ab7-491e-a904-a6e66eaeb9cc"
+      ]
+    },
+    {
+      "question": "Where does Selvig's device open the portal during the Battle of New York?",
+      "relevant_chunk_ids": [
+        "8640a13c-4257-4fbf-ab9e-65494e79a93d"
+      ]
+    },
+    {
+      "question": "At which restaurant does the exhausted team eat silently after the Battle of New York?",
+      "relevant_chunk_ids": [
+        "2abc2e31-b598-409c-969f-f645c8a7f225"
+      ]
+    },
+    {
+      "question": "Who is revealed to be the Winter Soldier?",
+      "relevant_chunk_ids": [
+        "80dcda5f-b245-446a-8585-bf29bd7dba63"
+      ]
+    },
+    {
+      "question": "During what event does Ultron wake and attack with broken Legion drones?",
+      "relevant_chunk_ids": [
+        "55d39aa0-a337-40fd-afe5-7b365b3c1876"
+      ]
+    },
+    {
+      "question": "Who dies shielding Barton during the Sokovia climax of Age of Ultron?",
+      "relevant_chunk_ids": [
+        "42257e05-5485-494b-8068-ab8718c521f6"
+      ]
+    },
+    {
+      "question": "Which hero debuts at the Leipzig airport battle by stealing Rogers's shield?",
+      "relevant_chunk_ids": [
+        "0c89f2db-75f2-4e02-9f02-1e8ee8d247c0"
+      ]
+    },
+    {
+      "question": "What footage does Zemo play to turn Stark against Barnes?",
+      "relevant_chunk_ids": [
+        "60db2810-11a3-45eb-8cf3-f911db61877a"
+      ]
+    },
+    {
+      "question": "Where does Stephen Strange travel to learn the mystic arts after losing fine hand control?",
+      "relevant_chunk_ids": [
+        "b6677ddc-9d91-4920-b7c7-be4bcbb2399a"
+      ]
+    },
+    {
+      "question": "Who shatters Thor's hammer in her hand in Thor: Ragnarok?",
+      "relevant_chunk_ids": [
+        "c39711ae-2e22-4f9a-9b9d-3f7da5bf6817"
+      ]
+    },
+    {
+      "question": "How does Thor bring about Asgard's destruction in Thor: Ragnarok?",
+      "relevant_chunk_ids": [
+        "8f760f07-7b87-4f31-aacd-6a9e6bd47f12"
+      ]
+    },
+    {
+      "question": "At which waterfall is T'Challa crowned in ritual combat?",
+      "relevant_chunk_ids": [
+        "fee3c138-821d-44f0-a8f3-92ef10c6f842"
+      ]
+    },
+    {
+      "question": "What does Killmonger order burned after defeating T'Challa?",
+      "relevant_chunk_ids": [
+        "b85f610e-d61c-40ce-808f-b4ecae4675b9"
+      ]
+    },
+    {
+      "question": "Which Infinity Stone does Thanos take from Xandar before boarding the Asgardian refugee ship?",
+      "relevant_chunk_ids": [
+        "20933b75-10bd-4293-b7de-ce30b9ed54eb"
+      ]
+    },
+    {
+      "question": "Where does Thanos snap his fingers at the end of Infinity War?",
+      "relevant_chunk_ids": [
+        "e706ede9-03bf-4282-a77a-bcda2dad8247"
+      ]
+    },
+    {
+      "question": "What frees Scott Lang from the Quantum Realm in the Endgame opening?",
+      "relevant_chunk_ids": [
+        "393be92a-adc1-4f53-a450-1a85bb5796ce"
+      ]
+    },
+    {
+      "question": "On which planet does Natasha Romanoff die during the time heist?",
+      "relevant_chunk_ids": [
+        "eb7611d9-ea5d-485a-8abe-dacb12a01032",
+        "7d91eba3-dfc2-41c1-868a-b673a6c69afb",
+        "2c6e8287-7768-4d2c-8d1c-7f6c3b1f3fe4"
+      ]
+    },
+    {
+      "question": "Who wears a new gauntlet to restore the snapped in Endgame?",
+      "relevant_chunk_ids": [
+        "a3ce4f1b-4836-404d-8809-63288aebd3e7"
+      ]
+    },
+    {
+      "question": "Who receives a repaired shield from Steve Rogers at the end of Endgame?",
+      "relevant_chunk_ids": [
+        "af65c2a5-e280-4ed8-b52d-b43dcf019055"
+      ]
+    },
+    {
+      "question": "What defines Steve Rogers more than strength, according to his hero profile?",
+      "relevant_chunk_ids": [
+        "a7a3e3fe-df1b-4ae2-b1bd-e417259f9d84"
+      ]
+    },
+    {
+      "question": "Where does Thor gain Stormbreaker, according to his hero profile?",
+      "relevant_chunk_ids": [
+        "60245e51-270d-432a-96e0-ba676ab235f4"
+      ]
+    },
+    {
+      "question": "How does Banner permanently merge intellect and strength by Endgame?",
+      "relevant_chunk_ids": [
+        "0795d6b1-5ea3-492c-b488-c67f04ba0a30"
+      ]
+    },
+    {
+      "question": "Why does Natasha Romanoff trade her life on Vormir in the hero profile?",
+      "relevant_chunk_ids": [
+        "7d91eba3-dfc2-41c1-868a-b673a6c69afb"
+      ]
+    },
+    {
+      "question": "What alias does Clint Barton adopt after his family is snapped away?",
+      "relevant_chunk_ids": [
+        "182c7cca-9020-4938-9592-45d3f00cd23c"
+      ]
+    },
+    {
+      "question": "Who empowers Wanda Maximoff as a Hydra volunteer?",
+      "relevant_chunk_ids": [
+        "cb09fbd4-cced-4ef3-9f9b-8acdd3bc19e8"
+      ]
+    },
+    {
+      "question": "How many possible outcomes does Doctor Strange view on Titan?",
+      "relevant_chunk_ids": [
+        "5f15e9da-a956-492a-aa70-8376532dcb64"
+      ]
+    },
+    {
+      "question": "How does Loki die trying to trick Thanos?",
+      "relevant_chunk_ids": [
+        "dedb2e6e-5c4f-4ffa-96a3-060a505eb7dd"
+      ]
+    },
+    {
+      "question": "Whom does Thanos sacrifice on Vormir for the Soul Stone?",
+      "relevant_chunk_ids": [
+        "dadb9aad-da3e-49cf-a152-a19fe5771e84",
+        "2c6e8287-7768-4d2c-8d1c-7f6c3b1f3fe4"
+      ]
+    },
+    {
+      "question": "Who reasons with Ultron rather than outfighting him in a forest?",
+      "relevant_chunk_ids": [
+        "a0eab291-fdee-4079-80d4-dcdc61d01190"
+      ]
+    },
+    {
+      "question": "What does Vulture (Toomes) indict Stark for in the grounded antagonists record?",
+      "relevant_chunk_ids": [
+        "d2c5b403-474e-4ee8-ab4d-d3815e7267b9"
+      ]
+    },
+    {
+      "question": "Which Infinity Stone is hidden on Vormir and guarded by the Red Skull?",
+      "relevant_chunk_ids": [
+        "eb7611d9-ea5d-485a-8abe-dacb12a01032",
+        "dadb9aad-da3e-49cf-a152-a19fe5771e84",
+        "580aef14-024c-4916-8c81-c499d5fbfcfe",
+        "2c6e8287-7768-4d2c-8d1c-7f6c3b1f3fe4"
+      ]
+    },
+    {
+      "question": "From which city is Wakanda ruled?",
+      "relevant_chunk_ids": [
+        "b25df5a6-266c-4296-a508-83f9524efe63"
+      ]
+    },
+    {
+      "question": "Where do Asgard's survivors resettle as New Asgard?",
+      "relevant_chunk_ids": [
+        "89207464-73be-4bea-85d4-c6237eab4b5e"
+      ]
+    },
+    {
+      "question": "When does SHIELD fall, and where do the Insight helicarriers drop?",
+      "relevant_chunk_ids": [
+        "a615376f-301c-42aa-97cf-f1148d5c2e0b"
+      ]
+    },
+    {
+      "question": "What does Thanos's ship do to the Avengers Compound in Endgame?",
+      "relevant_chunk_ids": [
+        "295b0326-f8be-4c62-87cd-14971aeaf995"
+      ]
+    },
+    {
+      "question": "In the deleted first Avengers scene, where is Rogers sitting when a waitress he later saves serves him?",
+      "relevant_chunk_ids": [
+        "b75e03a8-8744-485e-b22f-41669c65fa96"
+      ]
+    },
+    {
+      "question": "Why is one actor's face partly covered by his hand throughout the shawarma tag?",
+      "relevant_chunk_ids": [
+        "f5bd5e17-5d24-464e-8357-b04df02f25f8"
+      ]
+    },
+    {
+      "question": "Where was the darker alternate opening of The Incredible Hulk set?",
+      "relevant_chunk_ids": [
+        "e8cd94c8-e43a-44b9-b864-93d3d3857887"
+      ]
+    },
+    {
+      "question": "Which item of Fury's is glowing with a star emblem as he dissolves in a post-credits scene?",
+      "relevant_chunk_ids": [
+        "2653abc4-9a7a-4f58-a075-c722521c3aa9"
+      ]
+    },
+    {
+      "question": "In what year, and by whom, was the Avengers comic created?",
+      "relevant_chunk_ids": [
+        "84419dc5-1498-4e00-b6e3-a227f18d461c"
+      ]
+    },
+    {
+      "question": "Who composed the Avengers theme that is first fully stated in 2012?",
+      "relevant_chunk_ids": [
+        "abf6401b-c7fa-4558-8c42-e5a099bc3d1a"
+      ]
+    },
+    {
+      "question": "What does Stark keep for Morgan at his lake house during the five-year gap?",
+      "relevant_chunk_ids": [
+        "67f3bc29-157c-4710-b72c-b4c4669aa3e5"
+      ]
+    },
+    {
+      "question": "How does Nebula begin replacing her body parts?",
+      "relevant_chunk_ids": [
+        "3480fee7-ea18-4a96-bcf5-27fa54a57a8b"
+      ]
+    }
+  ]
+}
