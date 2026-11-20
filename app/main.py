@@ -378,10 +378,11 @@ def rrf_fusion(bm25_rows, vector_rows, top_n=5, k=60):
 
 def ask_groq(question, context):
     response = httpx.post(
-        "https://api.groq.com/openai/v1/chat/completions",
-        headers={"Authorization": f"Bearer {settings.GROQ_API_KEY}"},
+        "https://openrouter.ai/api/v1/chat/completions",
+        headers={"Authorization": f"Bearer {settings.OPENROUTER_API_KEY}"},
         json={
             "model": "openai/gpt-oss-20b",
+            
             "temperature": 0.2,
             "messages": [
                 {

@@ -6,7 +6,7 @@ from urllib.parse import quote
 class Settings(BaseSettings):
     DATABASE_URL: str
     JWT_SECRET_KEY: str
-    GROQ_API_KEY: str
+    OPENROUTER_API_KEY: str
 
     # Cloudinary configuration
     CLOUDINARY_CLOUD_NAME: str
