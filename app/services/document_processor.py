@@ -1,8 +1,4 @@
-import time
-
-from google import genai
-from google.genai import errors as genai_errors
-from google.genai import types
+import httpx
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sqlalchemy import insert
@@ -10,70 +6,33 @@ from sqlalchemy import insert
 from app.core.config import settings
 from app.models.document_chunk import DocumentChunk
 
-MODEL_NAME = "gemini-embedding-001"
-DIMENSIONS = 768
-BATCH_SIZE = 100
-RETRY_DELAY = 8
-
-_api_keys = []
-_clients = []
-_batch_index = 0
+EMBED_URL = "https://openrouter.ai/api/v1/embeddings"
+MODEL_NAME = "baai/bge-base-en-v1.5"
+QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
+BATCH_SIZE = 64
 
 
-def _keys():
-    if not _api_keys:
-        _api_keys.extend(
-            key for key in (settings.GEMINI_KEY, settings.GEMINI_KEY2) if key
-        )
-    return _api_keys
-
-
-def get_model(index=0):
-    global _clients
-    if not _clients:
-        _clients = [genai.Client(api_key=key) for key in _keys()]
-    return _clients[index % len(_clients)]
-
-
-def embed_batch(batch, task_type):
-    global _batch_index
-    keys = _keys()
-
-    for attempt in range(4):
-        for offset in range(len(keys)):
-            index = (_batch_index + offset) % len(keys)
-            try:
-                response = get_model(index).models.embed_content(
-                    model=MODEL_NAME,
-                    contents=batch,
-                    config=types.EmbedContentConfig(
-                        task_type=task_type,
-                        output_dimensionality=DIMENSIONS,
-                    ),
-                )
-                _batch_index += 1
-                return [list(item.values) for item in response.embeddings]
-            except genai_errors.ClientError as exc:
-                if exc.code != 429:
-                    raise
-        time.sleep(RETRY_DELAY)
-
-    raise RuntimeError("Gemini rate limit exceeded on all keys")
-
-
-def embed(texts, task_type):
+def embed(texts):
     result = []
     for start in range(0, len(texts), BATCH_SIZE):
-        result.extend(embed_batch(texts[start:start + BATCH_SIZE], task_type))
+        response = httpx.post(
+            EMBED_URL,
+            headers={"Authorization": f"Bearer {settings.OPENROUTER_API_KEY}"},
+            json={"model": MODEL_NAME, "input": texts[start:start + BATCH_SIZE]},
+            timeout=60,
+        )
+        response.raise_for_status()
+        data = sorted(response.json()["data"], key=lambda d: d["index"])
+        result.extend(item["embedding"] for item in data)
     return result
 
 
 def encode_documents(texts):
-    return embed(texts, "RETRIEVAL_DOCUMENT")
+    return embed(texts)
 
 
 def encode_query(text):
-    return embed([text], "RETRIEVAL_QUERY")[0]
+    return embed([QUERY_PREFIX + text])[0]
 
 
 def create_chunks(document_id, file_path, db):
