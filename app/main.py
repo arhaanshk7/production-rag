@@ -19,7 +19,7 @@ import httpx
 
 from app.core.config import settings
 from app.models.message import Message
-from app.services.document_processor import encode_query, get_model
+from app.services.document_processor import encode_query
 
 from app.security import create_access_token
 
@@ -53,13 +53,7 @@ from slowapi.extension import _rate_limit_exceeded_handler
 from app.core.config import REDIS_URL
 
 
-@asynccontextmanager
-async def lifespan(app: FastAPI):
-    get_model()
-    yield
-
-
-app = FastAPI(lifespan=lifespan)
+app = FastAPI()
 
 
 def get_user_rate_limit_key(request: Request) -> str:
