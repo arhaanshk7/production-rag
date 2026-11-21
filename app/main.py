@@ -390,8 +390,11 @@ def ask_groq(question, context):
                     "content": (
                         "Answer using ONLY the provided context. "
                         "If the answer is not in the context, say exactly: I couldn't find relevant information in your uploaded documents. "
+                        "Do not write S1, S2, 【S1】 or any source tags inside the answer text. "
                         "Only cite sources you actually used. "
-                        "At the end, add a line like: CITED: S1, S2 "
+                        "At the end, add a final line exactly in this format: CITED: S1, S2 "
+                        "The CITED line must be plain text on its own line, with no markdown or bold. "
+                        "If you used no source, end with: CITED: "
                         "Use only source IDs from the context (S1-S5). Do not invent filenames or page numbers."
                     ),
                 },

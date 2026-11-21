@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     JWT_SECRET_KEY: str
     OPENROUTER_API_KEY: str
+    GEMINI_KEY: str
+    GEMINI_KEY2: str
 
     # Cloudinary configuration
     CLOUDINARY_CLOUD_NAME: str
