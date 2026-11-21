@@ -7,11 +7,12 @@ import {
   faPlus,
   faRightFromBracket,
   faTrash,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 import api from "../services/api";
 
-function Sidebar({ open, onCollapse }) {
+function Sidebar({ open, onCollapse, onNavigate }) {
   const navigate = useNavigate();
   const location = useLocation();
   const match = useMatch("/conversations/:id");
@@ -89,26 +90,29 @@ function Sidebar({ open, onCollapse }) {
   return (
     <>
       <div
-        className="fixed inset-0 z-20 bg-black/40 md:hidden"
+        className="fixed inset-0 z-40 bg-black/50 md:hidden"
         onClick={onCollapse}
+        aria-hidden="true"
       />
 
-      <aside className="fixed inset-y-0 left-0 z-30 flex w-72 shrink-0 flex-col bg-[#0f172a] text-white md:static md:z-auto">
-        <div className="flex items-center justify-between px-4 pt-4">
+      <aside className="fixed inset-y-0 left-0 z-50 flex w-[85%] max-w-80 shrink-0 flex-col bg-[#0f172a] text-white shadow-2xl md:static md:z-auto md:w-72 md:max-w-none md:shadow-none">
+        <div className="flex items-center justify-between px-4 pt-[max(1rem,env(safe-area-inset-top))] pb-2 md:pt-4">
           <span className="text-lg font-semibold">DocChat</span>
           <button
             onClick={onCollapse}
-            className="rounded-md p-2 text-gray-400 hover:bg-white/10 hover:text-white"
-            aria-label="Collapse sidebar"
+            className="rounded-lg p-2 text-gray-400 hover:bg-white/10 hover:text-white"
+            aria-label="Close sidebar"
           >
-            <FontAwesomeIcon icon={faChevronLeft} />
+            <FontAwesomeIcon icon={faXmark} className="md:hidden" />
+            <FontAwesomeIcon icon={faChevronLeft} className="hidden md:inline-block" />
           </button>
         </div>
 
-        <div className="p-4">
+        <div className="px-4 pb-4 pt-2 md:p-4 md:pt-0">
           <Link
             to="/new-chat"
-            className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-3 font-medium transition hover:bg-blue-700"
+            onClick={onNavigate}
+            className="flex w-full items-center justify-center gap-2 rounded-lg bg-blue-600 px-4 py-3.5 font-medium transition hover:bg-blue-700 md:py-3"
           >
             <FontAwesomeIcon icon={faPlus} />
             New Chat
@@ -119,7 +123,7 @@ function Sidebar({ open, onCollapse }) {
           Conversations
         </p>
 
-        <nav className="flex-1 space-y-1 overflow-y-auto px-2">
+        <nav className="flex-1 space-y-1 overflow-y-auto px-3 md:px-2">
           {loading ? (
             <p className="px-2 py-3 text-sm text-gray-500">Loading...</p>
           ) : conversations.length === 0 ? (
@@ -145,7 +149,8 @@ function Sidebar({ open, onCollapse }) {
                 >
                   <NavLink
                     to={`/conversations/${id}`}
-                    className="flex min-w-0 flex-1 items-center gap-3 px-3 py-2 text-sm"
+                    onClick={onNavigate}
+                    className="flex min-w-0 flex-1 items-center gap-3 px-3 py-3 text-sm md:py-2"
                   >
                     <FontAwesomeIcon
                       icon={faComments}
@@ -158,7 +163,7 @@ function Sidebar({ open, onCollapse }) {
 
                   <button
                     onClick={() => handleDelete(id)}
-                    className="mr-2 rounded-md p-1.5 text-gray-500 hover:bg-white/10 hover:text-red-400"
+                    className="mr-1.5 rounded-md p-2 text-gray-500 hover:bg-white/10 hover:text-red-400 md:mr-2 md:p-1.5"
                     aria-label="Delete conversation"
                   >
                     <FontAwesomeIcon icon={faTrash} />
@@ -169,10 +174,10 @@ function Sidebar({ open, onCollapse }) {
           )}
         </nav>
 
-        <div className="border-t border-white/10 p-4">
+        <div className="border-t border-white/10 px-4 pb-[max(1rem,env(safe-area-inset-bottom))] pt-2 md:p-4">
           <button
             onClick={handleLogout}
-            className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-sm text-gray-300 transition hover:bg-white/5 hover:text-white"
+            className="flex w-full items-center gap-3 rounded-lg px-3 py-3 text-sm text-gray-300 transition hover:bg-white/5 hover:text-white md:py-2"
           >
             <FontAwesomeIcon icon={faRightFromBracket} />
             Logout

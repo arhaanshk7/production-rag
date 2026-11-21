@@ -6,6 +6,7 @@ import {
   faChevronRight,
   faFileLines,
   faFilePdf,
+  faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
 import api from "../services/api";
@@ -60,16 +61,19 @@ function DocumentsPanel({ open, onCollapse }) {
   return (
     <>
       <div
-        className="fixed inset-0 z-20 bg-black/40 lg:hidden"
+        className="fixed inset-0 z-40 bg-black/50 lg:hidden"
         onClick={onCollapse}
+        aria-hidden="true"
       />
 
-      <aside className="fixed inset-y-0 right-0 z-30 flex w-[32rem] shrink-0 flex-col border-l border-gray-200 bg-slate-50 lg:static lg:z-auto">
+      <aside className="fixed inset-x-0 bottom-0 z-50 flex h-[78dvh] shrink-0 flex-col rounded-t-2xl border-t border-gray-200 bg-slate-50 shadow-2xl sm:h-[70dvh] lg:static lg:z-auto lg:h-auto lg:w-[32rem] lg:rounded-none lg:border-l lg:border-t-0 lg:shadow-none">
+        <div className="mx-auto mt-2 h-1 w-10 shrink-0 rounded-full bg-gray-300 lg:hidden" />
+
         <div className="flex items-center justify-between border-b border-gray-200 px-4 py-4">
-          <div className="flex items-center gap-2 text-gray-800">
+          <div className="flex min-w-0 items-center gap-2 text-gray-800">
             <FontAwesomeIcon icon={faFileLines} />
-            <span className="font-semibold">Uploaded Documents</span>
-            <span className="rounded-full bg-gray-200 px-2 py-0.5 text-xs text-gray-600">
+            <span className="truncate font-semibold">Uploaded Documents</span>
+            <span className="shrink-0 rounded-full bg-gray-200 px-2 py-0.5 text-xs text-gray-600">
               {visibleDocuments.length}
             </span>
           </div>
@@ -77,17 +81,21 @@ function DocumentsPanel({ open, onCollapse }) {
           <button
             onClick={onCollapse}
             className="rounded-md p-2 text-gray-500 hover:bg-gray-200"
-            aria-label="Collapse documents"
+            aria-label="Close documents"
           >
-            <FontAwesomeIcon icon={faChevronRight} />
+            <FontAwesomeIcon icon={faXmark} className="lg:hidden" />
+            <FontAwesomeIcon
+              icon={faChevronRight}
+              className="hidden lg:inline-block"
+            />
           </button>
         </div>
 
         {selectedUrl ? (
-          <div className="flex min-h-0 flex-1 flex-col p-4">
+          <div className="flex min-h-0 flex-1 flex-col p-4 pb-[max(1rem,env(safe-area-inset-bottom))] lg:pb-4">
             <button
               onClick={() => setSelected(null)}
-              className="flex items-center gap-2 self-start rounded-lg px-2 py-1 text-sm text-gray-600 hover:bg-gray-200"
+              className="flex items-center gap-2 self-start rounded-lg px-2 py-1.5 text-sm text-gray-600 hover:bg-gray-200"
             >
               <FontAwesomeIcon icon={faArrowLeft} />
               Back
@@ -100,7 +108,7 @@ function DocumentsPanel({ open, onCollapse }) {
             />
           </div>
         ) : (
-          <div className="flex-1 space-y-3 overflow-y-auto p-4">
+          <div className="flex-1 space-y-3 overflow-y-auto p-4 pb-[max(1rem,env(safe-area-inset-bottom))] lg:pb-4">
             {loading ? (
               <p className="text-sm text-gray-500">Loading...</p>
             ) : visibleDocuments.length === 0 ? (
@@ -127,7 +135,7 @@ function DocumentsPanel({ open, onCollapse }) {
                       })
                     }
                     disabled={!document.url}
-                    className="flex w-full items-start gap-3 rounded-xl border border-gray-200 bg-white p-3 text-left transition hover:border-blue-300 hover:bg-blue-50 disabled:cursor-default disabled:hover:border-gray-200 disabled:hover:bg-white"
+                    className="flex w-full items-start gap-3 rounded-xl border border-gray-200 bg-white p-4 text-left transition hover:border-blue-300 hover:bg-blue-50 disabled:cursor-default disabled:hover:border-gray-200 disabled:hover:bg-white md:p-3"
                   >
                     <FontAwesomeIcon
                       icon={faFilePdf}
